@@ -18,7 +18,7 @@ import sys
 import subprocess
 import textwrap
 
-from mujoco_py import config
+from mujoco_py_131 import config
 
 # Python 3 compatibility:
 try:

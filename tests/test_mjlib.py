@@ -5,9 +5,9 @@ This includes basic tests to make sure the function calls work.
 import ctypes
 import unittest
 
-from mujoco_py.mjlib import mjlib
-from mujoco_py import mjtypes
-from mujoco_py import glfw
+from mujoco_py_131.mjlib import mjlib
+from mujoco_py_131 import mjtypes
+from mujoco_py_131 import glfw
 
 
 class MjLibTest(unittest.TestCase):

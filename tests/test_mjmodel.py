@@ -1,8 +1,8 @@
-import mujoco_py
+import mujoco_py_131
 import six
 
 def test_smoke():
-    model = mujoco_py.MjModel('tests/models/ant.xml')
+    model = mujoco_py_131.MjModel('tests/models/ant.xml')
 
     # Try stepping
     model.step()

@@ -3,7 +3,7 @@ Test mujoco viewer.
 """
 import unittest
 
-from mujoco_py import mjviewer, mjcore
+from mujoco_py_131 import mjviewer, mjcore
 
 
 class MjLibTest(unittest.TestCase):

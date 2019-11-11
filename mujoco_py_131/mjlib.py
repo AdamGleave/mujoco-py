@@ -3,7 +3,7 @@ import os
 from .util import *
 from .mjtypes import *
 
-from mujoco_py import config
+from mujoco_py_131 import config
 
 path_prefix = config.mjpro_path
 if sys.platform.startswith("darwin"):
